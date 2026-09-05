@@ -5,7 +5,7 @@ export default function Footer() {
         <p className="text-[13px] text-pitch-faint">
           © {new Date().getFullYear()} Created by{" "}
           <span className="font-semibold text-pitch-body">
-            Mikołaj Michalak
+            Shakib Shahriar
           </span>
         </p>
         <p className="text-[11px] tracking-[0.16em] uppercase text-pitch-faintest">

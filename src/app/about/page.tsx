@@ -58,7 +58,7 @@ export default function AboutPage() {
 
       <div className="mt-12 border-t border-pitch-line pt-8">
         <a
-          href="https://github.com/Majkan1"
+          href="https://github.com/myself-shakib"
           className="inline-flex items-center gap-2 rounded-full border border-pitch-border3 px-6 py-2.5 text-[13px] font-semibold tracking-[0.14em] uppercase text-pitch-text transition-colors duration-200 hover:border-accent hover:text-accent"
         >
           GitHub <span className="text-[12px]">↗</span>
