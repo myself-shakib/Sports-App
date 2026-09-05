@@ -1,21 +1,21 @@
 <div align="center">
-
-# ⚽ Sport App
-
-**A football leagues & teams browser built with the Next.js App Router.**
-
-Browse competitions from around the world, drill into any league to see its teams,
-and open a team to view its stadium, description and official links — all powered by
-[TheSportsDB](https://www.thesportsdb.com/) and served with background data caching.
-
-[![Live Demo](https://img.shields.io/badge/▲_Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://sport-app-majkan.vercel.app)
-
-![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_v4-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
-![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)
-
+  
+  # ⚽ Sport App
+  
+  **A football leagues & teams browser built with the Next.js App Router.**
+  
+  Browse competitions from around the world, drill into any league to see its teams,
+  and open a team to view its stadium, description and official links — all powered by
+  [TheSportsDB](https://www.thesportsdb.com/) and served with background data caching.
+  
+  [![Live Demo](https://img.shields.io/badge/▲_Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://shakib-project.vercel.app)
+  
+  ![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+  ![React](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+  ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+  ![Tailwind CSS](https://img.shields.io/badge/Tailwind_v4-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+  ![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+  
 </div>
 
 ---
@@ -45,21 +45,21 @@ and open a team to view its stadium, description and official links — all powe
 
 ```
 src/app/
-├── page.tsx                  # Home — league list + search
-├── layout.tsx                # Root layout (Navbar + Footer)
-├── loading.tsx               # Global loading state
-├── error.tsx                 # Error boundary
-├── not-found.tsx             # 404 page
-├── about/page.tsx            # About page
+├── page.tsx # Home — league list + search
+├── layout.tsx # Root layout (Navbar + Footer)
+├── loading.tsx # Global loading state
+├── error.tsx # Error boundary
+├── not-found.tsx # 404 page
+├── about/page.tsx # About page
 ├── leagues/
-│   └── [leagueId]/
-│       ├── page.tsx          # Teams in a league
-│       └── teams/
-│           └── [teamId]/
-│               └── page.tsx  # Single team detail
-├── components/               # Navbar, Footer, SearchBar, SearchWrapper, ReadMore
-├── lib/api.ts                # TheSportsDB fetch helpers
-└── types/index.ts            # League / Team / API interfaces
+│ └── [leagueId]/
+│ ├── page.tsx # Teams in a league
+│ └── teams/
+│ └── [teamId]/
+│ └── page.tsx # Single team detail
+├── components/ # Navbar, Footer, SearchBar, SearchWrapper, ReadMore
+├── lib/api.ts # TheSportsDB fetch helpers
+└── types/index.ts # League / Team / API interfaces
 ```
 
 ## 🔌 How the data layer works
@@ -117,7 +117,6 @@ Released under the [MIT License](LICENSE).
 ---
 
 <div align="center">
-Built by <a href="https://github.com/Majkan1">Mikołaj Michalak</a> ·
-<a href="https://www.mikolajmichalak.dev">Portfolio</a> ·
-<a href="https://www.linkedin.com/in/mikolaj-michalak">LinkedIn</a>
+  Built by <a href="https://github.com/myself-shakib">Shakib Shahriar</a> ·
+  <a href="https://www.shakib-shahriar.vercel.app">Portfolio</a> ·
 </div>
