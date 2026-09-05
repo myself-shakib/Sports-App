@@ -79,7 +79,7 @@ Each request uses Next.js caching (`next: { revalidate }`), so data is regenerat
 
 ```bash
 # 1. Clone
-git clone https://github.com/Majkan1/Sport-app.git
+git clone https://github.com/myself-shakib/Sport-app.git
 cd Sport-app
 
 # 2. Install
